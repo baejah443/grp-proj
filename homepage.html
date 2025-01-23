@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HOMEPAGE</title>
+</head>
+
+<style>
+    .btn-group .button {
+    background-color: #e2901e; /* Green */
+    border: 1px solid rgb(12, 12, 12);
+    color: white;
+    padding: 10px 161px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    }
+	
+	.btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+    }
+
+    .btn-group .button:hover {
+    background-color: #ffffff;
+    }
+	
+	.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+
+    .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+
+    .button:hover span {
+    padding-right: 25px;
+    }
+
+    .button:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+	
+    #box {
+	background-color: #ffffff;
+	width: 90%;
+	}
+	
+	#paragraph {
+	font-size: 20px;
+	font-family: strong;
+	width: 70%;
+	}
+    
+</style>
+<body bgcolor=#242124 >
+<br><hr>
+<div class="btn-group">
+<button class="button" onclick="window.location.href='homepage.html'"><span>Home</span></button>
+<button class="button" onclick="window.location.href='product.html'"><span>Product</span></button>
+<button class="button" onclick="window.location.href='price.html'"><span>Price List</span></button>
+<button class="button" onclick="window.location.href='size.html'"><span>Size</span></button>
+</div><br>
+<br><hr><br>
+<center>
+<div id="box">
+<h1>Welcome To Makerz website</h1>
+<p>"Breaking The Limit."</p>
+<img src="img/makerz logo.jpg" alt="makerz logo" style="width:300px;height:300px">
+<br><br>
+<div id="paragraph">
+<strong>Makerz is a Malaysian footwear brand established in 2019 by founder Boss Wan. The company operates under the registered name Makerz Empire (003261761-W). Based in Petaling Jaya, Selangor, Makerz has gained popularity among the younger generation for its unique and appealing sneaker designs. The brand offers a diverse range of sneakers, including models like OL Asas Pasang, OL Asas Surut, Purnama, and Rentaka. Each design is crafted with quality materials, emphasizing user comfort with soft and comfortable soles. In addition to footwear, Makerz has expanded its product line to include clothing and accessories, such as shirts and caps.
+
+
+<strong>What makes Makerz Shoes unique is our commitment to quality, comfort, and versatility. You can count on our sneakers to be your reliable companion on every adventure. Want a personalized touch? Pair your journey with our exclusive accessories and care kits to keep your shoes looking and feeling fresh.</strong>
+<p><font face="forte" id="demo">Discover new horizons, release your tension, and let Makerz Shoes do the rest.</font></p>
+</div>
+</div>
+<script>
+    document.getElementById("demo").onmouseover = function() {
+	mouseOver()};
+	
+	document.getElementById("demo").onmouseout = function() {
+	mouseOut()};
+	
+	function mouseOver() {
+	document.getElementById("demo").style.color = "orange";
+	document.getElementById("demo").innerHTML = "Step out in confidence, break the limit, and make every adventure unforgettable with Makerz!";
+	}
+	
+	function mouseOut() {
+	document.getElementById("demo").style.color = "black";
+	document.getElementById("demo").innerHTML = "Discover new horizons, release your tension, and let Makerz Shoes do the rest.";
+	}
+</script>
+</center>
+</body>
+<marquee><h2><b>Buy 3 free 1 (Only on selected items)</h2></b></marquee>
+<footer>
+<center>
+<div id="box">
+<b>CONTACT US AT:</b><br>
+Phone: +60-118-5798(Malaysia)<br>
+<b>or</b><br>
+Email: makerz@gmail.com
+</div>
+</center>
+</footer>
+</html>

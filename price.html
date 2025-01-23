@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Price List</title>
+<img src="img/logo makerz.webp" alt="logo" style="width:170px;height:170px">
+<img src="img/bannermakerz.jpg" alt="banner" style="width:1310px;height:170px">
+</head>
+<style>
+    .btn-group .button {
+		background-color: #e2901e; /* Green */
+		border: 1px solid rgb(12, 12, 12);
+    color: white;
+    padding: 8px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    }
+	
+	.btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+    }
+
+    .btn-group .button:hover {
+		background-color: #f1f3f1;
+    }
+	
+	.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+
+    .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+
+    .button:hover span {
+    padding-right: 25px;
+    }
+
+    .button:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+	
+    #box {
+	background-color: #d09550;
+	width: 90%;
+	}
+</style>
+<body bgcolor="#000000"></body>
+<br><hr>
+<div class="btn-group">
+	<button class="button" onclick="window.location.href='homepage.html'"><span>Home</span></button>
+    <button class="button" onclick="window.location.href='product.html'"><span>Product</span></button>
+    <button class="button" onclick="window.location.href='price.html'"><span>Price List</span></button>
+    <button class="button" onclick="window.location.href='size.html'"><span>Size</span></button>
+</div><br><br>
+<hr><br>
+<center>
+<div id="box">
+<h2>List of Shoes and Price</h2>
+<table bgcolor="#df2344" border="3px; style:solid" bordercolor="#fc8c03" cellspacing="border-collapse:collapse" cellpading="5px" style="width:80%; align:center">
+    <tr align="center" bgcolor="#f7f7b2">
+		<td align="center" style="color:#000000">Num.</td>
+		<td align="center" style="color:#000000">Name</td>
+		<td align="center" style="color:#000000">Price</td>
+		<td align="center" style="color:#000000">Discount (10%)</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">1</td>
+		<td align="center" style="color:#000000">MAKERZXJP LEJANG</td>
+		<td align="center" style="color:#000000">RM 199</td>
+		<td align="center" style="color:#000000">RM179.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">2</td>
+		<td align="center" style="color:#000000">OL ASAS BELERANG T2</td>
+		<td align="center" style="color:#000000">RM 179</td>
+		<td align="center" style="color:#000000">RM 161.10</td>
+	</tr>
+    <tr align="center" bgcolor="#F5F5DC">
+	    <td align="center" style="color:#000000">3</td>
+		<td align="center" style="color:#000000">OL ASAS BELIUNG T2</td>
+		<td align="center" style="color:#000000">RM 199</td>
+		<td align="center" style="color:#000000">RM 1791.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">4</td>
+		<td align="center" style="color:#000000">OL ASAS BIRAM T2</td>
+		<td align="center" style="color:#000000">RM 169</td>
+		<td align="center" style="color:#000000">RM 152.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">5</td> 
+		<td align="center" style="color:#000000">OL ASAS PASANG T2</td>
+		<td align="center" style="color:#000000">RM 199</td>
+		<td align="center" style="color:#000000">RM 179.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">6</td> 
+		<td align="center" style="color:#000000">OL ASAS SURUT G T2</td>
+		<td align="center" style="color:#000000">RM 169</td>
+		<td align="center" style="color:#000000">RM 152.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">7</td> 
+		<td align="center" style="color:#000000">OL ASAS GERHANA T2</td>
+		<td align="center" style="color:#000000">RM 169</td>
+		<td align="center" style="color:#000000">RM 152.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">8</td> 
+		<td align="center" style="color:#000000">OL ASAS PURNAMA T2</td>
+		<td align="center" style="color:#000000">RM 169</td>
+		<td align="center" style="color:#000000">RM 152.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">9</td> 
+		<td align="center" style="color:#000000">OL ASAS TAPIR T2</td>
+		<td align="center" style="color:#000000">RM 169</td>
+		<td align="center" style="color:#000000">RM 152.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">10</td> 
+		<td align="center" style="color:#000000">OL ASAS GERHANA KANVAS</td>
+		<td align="center" style="color:#000000">RM 169</td>
+		<td align="center" style="color:#000000">RM 152.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">11</td> 
+		<td align="center" style="color:#000000">OL ASAS BUMI</td>
+		<td align="center" style="color:#000000">RM 179</td>
+		<td align="center" style="color:#000000">RM 161.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">12</td> 
+		<td align="center" style="color:#000000">OL ASAS KAPOK</td>
+		<td align="center" style="color:#000000">RM 169</td>
+		<td align="center" style="color:#000000">RM 152.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">13</td> 
+		<td align="center" style="color:#000000">OL ASAS KASWI</td>
+		<td align="center" style="color:#000000">RM 159</td>
+		<td align="center" style="color:#000000">RM 143.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">14</td> 
+		<td align="center" style="color:#000000">OL ASAS KERANI</td>
+		<td align="center" style="color:#000000">RM 169</td>
+		<td align="center" style="color:#000000">RM 152.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">15</td> 
+		<td align="center" style="color:#000000">OL BISKUTS</td>
+		<td align="center" style="color:#000000">RM 199</td>
+		<td align="center" style="color:#000000">RM 179.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">16</td> 
+		<td align="center" style="color:#000000">OL ILUSI</td>
+		<td align="center" style="color:#000000">RM 229</td>
+		<td align="center" style="color:#000000">RM 206.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">17</td> 
+		<td align="center" style="color:#000000">SARONG KAPOK</td>
+		<td align="center" style="color:#000000">RM 169</td>
+		<td align="center" style="color:#000000">RM 152.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">18</td> 
+		<td align="center" style="color:#000000">SARONG KASWI</td>
+		<td align="center" style="color:#000000">RM 159</td>
+		<td align="center" style="color:#000000">RM 143.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">19</td> 
+		<td align="center" style="color:#000000">SARONG ASAS TAPIR</td>
+		<td align="center" style="color:#000000">RM 169</td>
+		<td align="center" style="color:#000000">RM 152.10</td>
+	</tr>
+	<tr align="center" bgcolor="#F5F5DC">
+		<td align="center" style="color:#000000">20</td> 
+		<td align="center" style="color:#000000">SARONG TAPIR T2</td>
+		<td align="center" style="color:#000000">RM 169</td>
+		<td align="center" style="color:#000000">RM 152.10</td>
+	</tr>
+</table><br><br>
+</div>
+</center>
+</body>
+<center>
+<h1 id="demo">There is discount for Makerz Community.</h1>
+<script>
+    document.getElementById("demo").onmouseover = function() {
+	mouseOver()};
+	
+	document.getElementById("demo").onmouseout = function() {
+	mouseOut()};
+	
+	function mouseOver() {
+	document.getElementById("demo").style.color = "red";
+	document.getElementById("demo").innerHTML = "Discount code: MAKE IT MOVE";
+	}
+	
+	function mouseOut() {
+	document.getElementById("demo").style.color = "black";
+	document.getElementById("demo").innerHTML = "There is discount for Makerz Community."
+	}
+</script>
+</center>
+<footer>
+<center>
+<div id="box">
+	<div class="cf-input-style">
+		<main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+    
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://apps.easystore.co/assets/css/contact-form/cf-style.css">
+		
+		<div>
+			<div class="cf-wrapper" style="background-color:#dddddd">
+				
+				<form method="post" action="/a/contact-form">
+					<input type="hidden" name="_request_id" value="VsxA384zrTdTtptFNEvoCRQLe5HLmG7rbCA0gAU9">
+					<input type="hidden" name="_token" value="E8bsVUA29mRHCg1q2yw8yM2afyPCFQndqpbDslNh">
+					
+					<h2 class="cf-title">Contact Us</h2><p>How can we help you?</p>
+					<div class="cf-form-group">
+						<div class="cf-input-style">
+							<input class="cf-form-control" type="text" name="name" placeholder="Name" required="">
+							<span class="fa fa-user"></span>
+						</div>
+						<div class="cf-input-style">
+							<input class="cf-form-control" type="text" name="email" placeholder="Email" required="">
+							<span class="fa fa-envelope"></span>
+						</div>
+					</div>
+					<div class="cf-input-style">
+						<input class="cf-form-control" type="text" name="subject" placeholder="Subject" required="">
+						<span class="fa fa-at"></span>
+					</div>
+					<div class="cf-input-style">
+						<textarea class="cf-form-control" style="min-height: 130px;" name="message" placeholder="Message..." required=""></textarea>
+						<span class="fa fa-pencil"></span>
+					</div>
+					<div style="height:0px; width:0px; font-size:0px">
+					  <input type="checkbox" id="terms" name="terms" value="1">
+					  <label for="terms">I agree to the terms and conditions</label>
+					</div>
+					<div class="cf-input-style">
+						<div class="g-recaptcha" id="recaptcha" data-sitekey="6Lcijl0UAAAAACke_Lc4gk1qOEqXR7wJiUvqPDPY" style=""><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-k1mtrepb6fjj" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lcijl0UAAAAACke_Lc4gk1qOEqXR7wJiUvqPDPY&amp;co=aHR0cHM6Ly93d3cubWFrZXJ6bW92ZS5jb206NDQz&amp;hl=en&amp;v=1Bq_oiMBd4XPUhKDwr0YL1Js&amp;theme=light&amp;size=normal&amp;cb=ppl4cie888zo"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+					</div>
+					<div class="cf-form-group justify-right">
+						<button class="cf-btn" id="send_btn" disabled=""><span aria-hidden="true" class="fa fa-send"></span>Send</button>
+					</div>
+				</form>
+		
+				<script type="text/javascript">
+				var verifyCallback = function(response) {
+					document.getElementById("send_btn").disabled = false;
+				};
+				var onloadCallback = function() {
+					grecaptcha.render('recaptcha', {
+						'sitekey' : '6Lcijl0UAAAAACke_Lc4gk1qOEqXR7wJiUvqPDPY',
+						'callback' : verifyCallback,
+						'theme' : 'light',
+						'hl': 'en'
+					});
+				};
+				</script>
+				<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&amp;render=explicit" async="" defer=""></script>
+		
+				
+		
+			
+		  </div></div></main>
+<b>OR come to our Makerz HQ</b>
+
+
+<div class="location-detail">
+	<strong>
+	  MAKERZ HQ
+	</strong>
+	 <a href="tel:admin@makerzmove.com">60183588591</a> <br> 
+	 <a href="mailto:admin@makerzmove.com">admin@makerzmove.com</a> <br> 
+
+	<address>
+	   Lot A-41A, 37076-B kampung baru  <br> 
+	   sungai buloh  <br> 
+	  Petaling Jaya, 47000<br>
+	  Selangor , Malaysia <br>
+
+	  <div id="business-hour-0"><div class="dropdown" data-toggle="0"><span class="dropdown-toggle"><span style="color: red; font-weight: bold;">Closed</span></span><span class="caret"></span><ul class="dropdown-menu list-unstyled"><li><a>Mon: Closed</a></li><li><a>Tue: 2:00pm - 6:00pm</a></li><li><a>Wed: 2:00pm - 6:00pm</a></li><li><a>Thur: 2:00pm - 6:00pm</a></li><li><a>Fri: 2:00pm - 6:00pm</a></li><li><a>Sat: Closed</a></li><li><a>Sun: Closed</a></li></ul></div></div>
+	</address>
+
+  </div>
+</div>
+</center>
+</footer>
+</html>

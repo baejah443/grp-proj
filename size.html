@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<img src="img/logo makerz.webp" alt="logo" style="width:170px;height:170px">
+<img src="img/bannermakerz.jpg" alt="banner" style="width:1310px;height:170px">
+
+<style>
+      .btn-group .button {
+    background-color: #e2901e; /* Green */
+    border: 1px solid rgb(12, 12, 12);
+    color: white;
+    padding: 10px 161px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    }
+	
+	.btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+    }
+
+    .btn-group .button:hover {
+    background-color: #f1f3f1;
+    }
+	
+	.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+
+    .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+
+    .button:hover span {
+    padding-right: 25px;
+    }
+
+    .button:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+	
+    #box {
+	background-color: #d09550;
+	width: 90%;
+	}
+</style>
+<body bgcolor="#fffafa"></body>
+<br><hr>
+<div class="btn-group">
+    <button class="button" onclick="window.location.href='homepage.html'"><span>Home</span></button>
+    <button class="button" onclick="window.location.href='product.html'"><span>Product</span></button>
+    <button class="button" onclick="window.location.href='price.html'"><span>Price List</span></button>
+    <button class="button" onclick="window.location.href='size.html'"><span>Size</span></button>
+</div><br><br>
+<img src="img/size.png" alt="size"style="width:500px;height:500px">
+
+<hr><br>
+<footer>
+	<center>
+	<div id="box">
+	<b>CONTACT US AT:</b><br>
+	Phone: +60-118-5798(Malaysia)<br>
+	<b>or</b><br>
+	Email: makerz@gmail.com
+	</div>
+	</center>
+</footer>
+</html>
